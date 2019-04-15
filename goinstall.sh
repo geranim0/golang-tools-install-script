@@ -18,7 +18,7 @@ if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
     shell_profile="zshrc"
 elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
     # assume Bash
-    shell_profile="bashrc"
+    shell_profile="profile"
 fi
 
 if [ "$1" == "--32" ]; then
